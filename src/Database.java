@@ -99,7 +99,7 @@ public class Database {
         }
     }
 
-    public FossilCar fossilCarValuesFromResultSet(ResultSet resultSet) throws SQLException {
+    private FossilCar fossilCarValuesFromResultSet(ResultSet resultSet) throws SQLException {
         return new FossilCar(
                 resultSet.getInt("VehicleId"),
                 resultSet.getInt("ScrapyardId"),
@@ -116,7 +116,7 @@ public class Database {
 
     }
 
-    public ElectricCar electricCarValuesFromResultSet(ResultSet resultSet) throws SQLException {
+    private ElectricCar electricCarValuesFromResultSet(ResultSet resultSet) throws SQLException {
         return new ElectricCar(
                 resultSet.getInt("VehicleId"),
                 resultSet.getInt("ScrapyardId"),
@@ -133,7 +133,7 @@ public class Database {
 
     }
 
-    public Motorcycle motorcycleValuesFromResultSet(ResultSet resultSet) throws SQLException {
+    private Motorcycle motorcycleValuesFromResultSet(ResultSet resultSet) throws SQLException {
         return new Motorcycle(
                 resultSet.getInt("VehicleId"),
                 resultSet.getInt("ScrapyardId"),
@@ -222,7 +222,8 @@ public class Database {
             Statement statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery("SELECT * FROM fossilcar WHERE Driveable = true");
             while (resultSet.next()) {
-                FossilCar fossilCar = fossilCarValuesFromResultSet(resultSet);;
+                FossilCar fossilCar = fossilCarValuesFromResultSet(resultSet);
+                ;
                 drivableFossilCars.add(fossilCar);
             }
             return drivableFossilCars;

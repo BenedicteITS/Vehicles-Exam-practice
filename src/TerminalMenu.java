@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class TerminalMenu {
-    private static Scanner userInput = new Scanner(System.in);
+    private static final Scanner userInput = new Scanner(System.in);
     private final Database database = new Database("sql/database.properties");
 
     public void terminalMenu() {
