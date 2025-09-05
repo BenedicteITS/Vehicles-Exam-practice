@@ -50,7 +50,7 @@ Avslutte programmet.
 ##  Purpose
 - Practice **Object-Oriented Programming** principles in Java
 - Work with **file I/O** to read and parse data
-- Learn how to **connect Java to a database** and perform CRUD operations
+- Learn how to **connect Java to a database** and interact with the database through a Java program
 - Build a simple **terminal program** for querying and displaying data
 
 ---
