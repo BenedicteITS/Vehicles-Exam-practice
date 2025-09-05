@@ -17,7 +17,7 @@ Det nyopprettede selskapet Scrapyard med filialer i tre norske byer tar imot bil
 informasjon (vehicles.txt), og denne informasjonen skal overføres til en database. For en beskrivelse 
 av filen, se vedlegg 1. 
 
-**Del 1 - importere data til database: **
+**Del 1 - importere data til database:**
 Du skal lage et program som leser fra filen vehicles.txt og legger dataene inn i en database. Et forslag 
 t
  il databasestruktur finner du i filen scrapyard.sql. Du kan velge å gjøre justeringer i scrapyard.sql, 
@@ -32,7 +32,7 @@ En eller flere klasser som kan holde i data fra databasen. Det er forventet at a
 klasser som omfatter ulike typer kjøretøy ettersom de har mange felles egenskaper. Det er 
 også forventet at disse klassene blir benyttet i kommunikasjon med databasen. 
 
-**Del 2 – bruke databasen: **
+**Del 2 – bruke databasen:**
 Du skal lage et lite program som tilbyr brukeren en meny med noen menyvalg som omhandler 
 skraphandlerstedene og kjøretøyene som nå er plassert i databasen (etter at del 1 er gjennomført). 
 Du kan selv velge om du vil ha to main-metoder (en for del 1 og en for del 2), eller om du vil 
