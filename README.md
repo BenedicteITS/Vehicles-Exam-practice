@@ -61,14 +61,6 @@ Some parts are implemented, but the project is not fully complete.
 
 ---
 
-## Possible Improvements
-- Implement more robust error handling
-- Add validation for file input
-- Expand database queries and filtering options
-- Improve terminal output formatting
-
----
-
 ##  Technologies Used
 - **Java** (Object-Oriented Programming)
 - **JDBC** (Java Database Connectivity)
